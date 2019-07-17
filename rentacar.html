@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	
+	<!-- Favicon -->
+	<link rel="icon" href="images/favicon.ico" type="images/gif" sizes="16x16">
+	
+    <title>Rent A Car | Seclob</title>
+
+    <!-- Bootstrap core CSS-->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+	<link href="css/mega.menu.css" rel="stylesheet">
+    
+	<!-- Owl Carousel for this template-->
+	<link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
+	
+    <!-- Fontawesome styles for this template-->
+    <link href="css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="css/fontawesome.css" rel="stylesheet" type="text/css">
+    <link href="css/fontawesome.min.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+
+	<style>
+		.chat-wrapper {
+    list-style: none;
+    margin-bottom:300px;
+    position: fixed;
+    border-radius: 100px;
+    /*width: 260px;*/
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    z-index: 9999;
+}
+
+.chat {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.chat .text-muted {
+    color: #777;
+    font-size: 10px;
+}
+
+.chat .text-muted .fa {
+    margin-right: 4px;
+}
+
+.chat li {
+    border-bottom: 1px dotted #ededed;
+    padding: 0 5px 20px;
+    margin-bottom: 20px;
+}
+
+.chat li .chat-body p {
+    color: #444444;
+    font-size: 13px;
+    line-height: 21px;
+    margin: 0;
+    padding: 0;
+}
+
+.chat-wrapper .panel-body {
+    overflow-y: scroll;
+    height: 300px;
+}
+
+.chat .primary-font {
+    font-weight: 600;
+    color: #000;
+    font-size: 12px;
+    font-style: normal;
+}
+
+.chat-wrapper .btn-primary {
+    font-size: 30px !important;
+    text-align: left;
+}
+
+.supportstaff {
+    padding: 0 10px;
+}
+
+.chat-wrapper::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+}
+
+.chat-wrapper::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+.chat-wrapper::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #555;
+}
+
+.chat-wrapper .panel {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: 0;
+}
+
+.chat-wrapper .panel-primary > .panel-heading {
+    border: 0;
+    border-radius: 0 !important;
+}
+
+.chat-wrapper img {
+    max-width: 40px;
+    margin: 10px 10px 10px 0;
+}
+
+.chat-wrapper .panel-footer {
+    background-color: #f4f4f7 !important;
+    border-radius: 0 !important;
+    border-top: 1px solid #ededf0;
+    padding: 10px 15px;
+}
+
+.chat-wrapper .input-group .form-control {
+    border-color: #eeeeee;
+    border-radius: 0;
+    box-shadow: none;
+    float: left;
+    margin-bottom: 0;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+
+.chat-wrapper .fa-comments-o {
+    padding-right: 5px;
+}
+
+	</style>
+	
+</head>
+<a id="buttonscroll"><i class="far fa-arrow-alt-circle-up" style="color: #1d7200;font-size: 40px;"></i></a>
+<body>
+	<!--header start-->
+		<header id="header" class="default">
+			<div class="topbar">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-4">
+								<div class="topbar-left text-center text-md-left">
+									<ul class="list-inline">
+										<li> <a href="contact.html"><i class="far fa-envelope"></i> enquiry@seclob.com </a></li>
+											
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-8">
+								<div class="topbar-right text-center text-md-right">
+									<ul class="list-inline">
+										
+										<li><i class="fas fa-phone-volume"></i> +91 1234 456 789 | 0466 2350 256 02</li>																
+																			
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+			</div>
+			<div class="menu">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-2 col-sm-12 col-xs-12">
+							<div class="menu-left text-center text-md-left">
+								<div class="logo-box">
+									<a href="index.html"><img src="images/logo.png" alt="" class="img-responsive" style="width: 200px;height: auto;"></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-10 col-sm-12 col-xs-12">	
+							<div class="menu-items">
+								<nav class="navbar navbar-expand-lg navbar-light bg-light menu-right">										
+									<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+										<span class="navbar-toggler-icon"></span>
+									</button>
+
+									<div class="collapse navbar-collapse" id="navbarSupportedContent">
+										<ul class="navbar-nav mr-auto nav-text">
+											<li class="nav-item">
+												<a class="nav-link" href="index.html">Home </a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link" href="service.html">Service</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link" href="enquiry.html">Enquiry</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link" href="auction.html">Auction</a>
+											</li>
+											<li class="nav-item active">
+												<a class="nav-link" href="rentacar.html">Rent A Car</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link" href="offers.html">Offers</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link" href="contact.html">Contact</a>
+											</li>
+											
+											
+											
+										</ul>											
+									</div>
+									
+								</nav>
+								<div class="icons-set">
+									<ul class="list-inline">
+										<li class="icon-items nav-item dropdown ">
+										<a class="nav-link dropdown-toggle-no-caret" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-search"></i></a>										
+											<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown1">	
+											<div class="notification-item">													
+												<div class="search-details">
+													<form class="form-inline">
+													  <input class="form-control " type="search" placeholder="Search" aria-label="Search">
+													  <button class="s-btn btn-link " type="submit"><i class="fas fa-search"></i></button>
+													</form>																																								
+												</div>
+											</div>												
+										</div>		
+										</li>
+										<li class="icon-items nav-item dropdown">
+										<a class="nav-link dropdown-toggle-no-caret" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bell"></i></a>
+										<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown2">	
+											<div class="notification-item">
+												<div class="property">
+													<ul>
+														<li><div class="setting"><a href="#">Setting</a></div></li>
+														<li><div class="clear"><a href="#">Clear</a></div></li>
+													</ul>
+												</div>
+												<div class="notification-details">														
+													<div class="media">
+														<div class="media-left">
+															<a href="#"><img src="images/notification-img-2.png" alt=""></a>
+														</div>
+														<div class="media-body">
+															<h4 class="media-heading">Jassica William</h4> 
+															<p>comment on your Video.</p>																
+															<div class="comment-date">10 min ago</div>
+														</div>
+													</div>													
+													<div class="media">
+														<div class="media-left">
+															<a href="#"><img src="images/notification-img-3.png" alt=""></a>	
+														</div>
+														<div class="media-body">
+															<h4 class="media-heading">Congratulations!</h4>
+															<p>Your Order is Accepted.</p>																													
+															<div class="comment-date">
+																15 min ago
+															</div>
+														</div>
+													</div>																										
+													<div class="media">
+														<div class="media-left">
+															<a href="#"><img src="images/notification-img-4.png" alt=""></a>
+														</div>
+														<div class="media-body">
+															<h4 class="media-heading">Order Delivered!</h4>
+															<p>Your Order is Delivered.</p>
+															<div class="comment-date">20 min ago</div>
+														</div>
+													</div>																																								
+												</div>
+											</div>												
+										</div>	
+										</li>
+										<li class="partner-btn">
+											<a href="#" class="loginclr" title="login"><i class="fas fa-user-lock"></i> Login</a>
+										</li>
+										<li class="partner-btn">
+											<a href="#" class="loginclr" title="Auction login"><i class="fas fa-user-lock"></i> Auction</a>
+										</li>										
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>				
+		</header>
+	<!--header end-->
+	
+	<!--title-bar start-->
+	<section class="title-bar">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="left-title-text">
+					<h3> Rent A Car</h3>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="right-title-text">  
+						<ul>
+							<li class="breadcrumb-item"><a href="index.html"><i class="fas fa-home"></i></a></li>
+							<li class="breadcrumb-item active" aria-current="page">Rent A Car</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--title-bar end-->	
+	<!--browse-places start-->
+	<section class="browse-places-all">			
+		<div class="container">		
+			<div class="row">	
+				<div class="container">
+					<div class="col-md-12 row">
+   							<div class="col-md-6">
+    								<div class="booking">
+           									<a><img src="images/rentacar.jpg"></a>
+            								<p><strong>Santro </strong></p>
+            								<p style="color: #000; font-size: 20px;">₹<span> 22000</span> 
+
+              <span style="text-decoration: line-through; font-size: 12px; color: #a3a3a3;">₹17000</span>
+              <span style="font-size: 12px;color: #709f43; ">40% Off</span>
+              <span style="font-size: 12px;color: red;">Hurry, Only a few left!</span>
+            </p>
+            <p><span class="rating">3.6 <i class="fas fa-star"></i></span> 
+              <span class="_38sUEc"><span>660 ratings and 108 reviews</span></span></p>
+           <hr>
+           <p><i class="fas fa-tag" style="color: #8fc240;"></i> Special PriceGet extra 5% off (price inclusive of discount)T&C</p>
+           <p><i class="fas fa-tag" style="color: #8fc240;"></i> Buy More, Save MoreBuy worth ₹2000-2999 save ₹200; Buy worth ₹3000 save ₹400</p>
+           <p><i class="fas fa-tag" style="color: #8fc240;"></i> Bank OfferExtra 5% Off on Prepaid Orders</p>
+           <p><i class="fas fa-tag" style="color: #8fc240;"></i> Bank OfferExtra 5% off* with Axis Bank Buzz Credit Card</p>
+
+           <p>Description:</p>
+
+           <p style="text-align: justify;"> An air conditioner is a system or a machine that treats air in a defined, usually enclosed area via a refrigeration cycle in which warm air is removed and replaced with cooler air            </p>
+          
+            
+          <a href="#"><button type="button" name="submit" id="submit" class="btn btn-primary" style="margin-top: 20px;color: #fff;">Book Now</button></a>
+          </div>
+    </div>
+
+
+    <div class="col-md-6">
+    	<div class="booking">
+           <a><img src="images/rentacar.jpg"></a>
+           <p><strong>Santro</strong></p>
+           <p style="color: #000; font-size: 20px;">₹<span> 19000</span> 
+
+              <span style="text-decoration: line-through; font-size: 12px; color: #a3a3a3;">₹15000</span>
+              <span style="font-size: 12px;color: #709f43; ">30% Off</span>
+              <span style="font-size: 12px;color: red;">Hurry, Only a few left!</span>
+            </p>
+            <p><span class="rating">3.6 <i class="fas fa-star"></i></span> 
+              <span class="_38sUEc"><span>660 ratings and 108 reviews</span></span></p>
+           <hr>
+           <p><i class="fas fa-tag" style="color: #8fc240;"></i> Special PriceGet extra 5% off (price inclusive of discount)T&C</p>
+           <p><i class="fas fa-tag" style="color: #8fc240;"></i> Buy More, Save MoreBuy worth ₹2000-2999 save ₹200; Buy worth ₹3000 save ₹400</p>
+           <p><i class="fas fa-tag" style="color: #8fc240;"></i> Bank OfferExtra 5% Off on Prepaid Orders</p>
+           <p><i class="fas fa-tag" style="color: #8fc240;"></i> Bank OfferExtra 5% off* with Axis Bank Buzz Credit Card</p>
+
+           <p>Description:</p>
+
+           <p style="text-align: justify;"> An air conditioner is a system or a machine that treats air in a defined, usually enclosed area via a refrigeration cycle in which warm air is removed and replaced with cooler air            </p>
+          
+            
+                                <a href="#"><button type="button" name="submit" id="submit" class="btn btn-primary" style="margin-top: 20px;color: #fff;">Book Now</button></a>
+            		</div>
+    			</div>
+  			</div>
+  		</div>
+	</div>		
+</div>
+	</section>
+	<!--browse-places end-->	
+
+	<div class="chat-wrapper">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <a class="btn btn-primary btn-block btn-xs" href="https://api.whatsapp.com/send?phone=916238129995" target="_blank" title="whatsapp">
+                        <i class="fab fa-whatsapp"></i> 
+                    </a>
+
+                     <a class="btn btn-primary btn-block btn-xs" href="#" target="_blank" title="chat">
+                        <i class="far fa-comment-dots"></i> 
+                    </a>
+
+                </div>
+               
+                <!-- end panel-collap        se -->
+            </div><!-- end panel -->
+        </div>
+
+
+	<!--footer start-->
+	<footer class="footer">
+		<div class="subscribe-now line">
+			<div class="container">
+				<div class="row justify-content-between">
+					<div class="col-lg-5 col-md-6">
+						<div class="subscribe-newsletter">
+							<div class="sub-text">
+								<p>Connect with us for update and offers.</p>
+							</div>
+							<form>
+								<input class="input-subscribe" name="newsletter" type="text" placeholder="Enter your email address">
+								<div class="subscribe-btn">							
+									<div class="s-n-btn">
+										<button class="newsletter-btn btn-link">Subscribe Now</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3">
+						<div class="language">	
+							<form method="post" enctype="multipart/form-data" id="form-language">
+							<div class="btn-group open">
+								<button class="lang-btn l-btn-link dropdown-toggle-no-caret" data-toggle="dropdown" aria-expanded="true">
+									<i class="fas fa-globe"></i><span class="hidden-xs">English</span><i class="fas fa-caret-down"></i>
+								</button>
+								<ul class="dropdown-menu">
+									<li><a href="javascript:;">English</a></li>
+									<li><a href="javascript:;">Spanish</a></li>
+									<li><a href="javascript:;">Hindi</a></li>
+									<li><a href="javascript:;">Punjabi</a></li>
+								</ul>
+							</div>
+						</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
+					<div class="img-title">
+						<a href="index-2.html"><img src="images/logo-2.svg" alt=""></a>
+					</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum leo at finibus ornare. 
+					Aliquam gravida condimentum neque, vel ultrices purus dignissim a. </p>
+				</div>
+				<div class="col-md-3 col-sm-12 col-xs-12">
+					<div class="link-title">
+						<h4>About Seclob</h4>
+						<ul class="links">
+							<li><a href="about.html">About Us</a></li>
+							<li><a href="#">Careers</a></li>
+							<li><a href="our_blog.html">Blog</a></li>
+							<li><a href="#">Developers</a></li>
+							<li><a href="#">Mobile Apps</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>					
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
+					<div class="link-title">
+						<h4>Business</h4>
+						<ul class="links">
+							<li><a href="add_restaurant.html">Add a Restaurant</a></li>
+							<li><a href="#">Buniess Order Guidelines</a></li>
+							<li><a href="#">Orders</a></li>
+							<li><a href="#">Book</a></li>
+							<li><a href="#">Trace</a></li>
+							<li><a href="#">Advertise</a></li>
+						</ul>
+					</div>					
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
+					<div class="link-title">
+						<h4>Partner With Us</h4>
+						<ul class="links">
+							<li><a href="add_restaurant.html">For Restaurants</a></li>
+							<li><a href="add_driver.html">For Driver</a></li>							
+						</ul>
+						<div class="social-btns">
+							<a href="#"><div class="social-btn soc-btn"><i class="fab fa-facebook-f"></i></div></a>
+							<a href="#"><div class="social-btn soc-btn"><i class="fab fa-twitter"></i></div></a>
+							<a href="#"><div class="social-btn soc-btn"><i class="fab fa-instagram"></i></div></a>
+							<a href="#"><div class="social-btn soc-btn"><i class="fab fa-linkedin-in"></i></div></a>
+							<a href="#"><div class="social-btn soc-btn"><i class="fab fa-youtube"></i></div></a>
+						</div>
+					</div>					
+				</div>				
+			</div>
+		</div>
+		<div class="privacy-cards">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<div class="privacy-terms">
+							<ul>
+								<li><a href="#">Privacy</a></li>
+								<li><a href="#">Terms & Conditions</a></li>
+								<li><a href="#">Sitemap</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<div class="cards">
+							<img src="images/cards.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<div class="copyright-text">
+						<i class="far fa-copyright"></i>Copyright 2019 <a href="index.html">Seclob</a> by Gambol. All Rights Reserved.
+						</div>
+					</div>			
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--footer end--> 
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+	 <!-- Assect scripts for this page-->
+	<script src="assets/owlcarousel/owl.carousel.js"></script>
+	<script src="js/owlslider.js"></script>
+	<script src="js/toptoscroll.js"></script>
+	<script src="js/testimonials.js"></script>
+	
+	
+  </body>
+
+</html>
